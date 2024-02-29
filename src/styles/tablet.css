@@ -1,0 +1,61 @@
+
+@media (min-width: 375px) and (max-width: 767px) {
+  #hero .container .img.house {
+    top: 252px;
+  }
+
+  #hero .container .img.car {
+    top: 64px;
+  }
+
+  #steps .row.main .column.left .column.card:nth-child(1) .img {
+    left: 64px;
+  }
+  
+  #steps .row.main .column.left .column.card:nth-child(2) .img {
+    right: 64px;
+  }
+  
+  #steps .row.main .column.right .column.card:nth-child(1) .img {
+    left: 56px;
+  }
+}
+   
+@media (min-width: 425px) and (max-width: 767px) {
+  #hero .row.main {
+    flex-direction: column;
+  }
+
+  #options .row.right .column.slider_container:last-child,  
+  #options .row.right .column.right {
+    display: flex;
+  }
+
+  #benefits .row.main .column.left p:nth-child(2) {
+    width: 90px;
+
+    margin-right: 92px;
+
+    transform: rotate(0);
+  }
+
+  #benefits .row.main .column.right p:nth-child(2) {
+    width: 90px;
+
+    margin-left: 92px;
+
+    transform: rotate(0);
+  }
+
+  #steps .row.main .column.left .column.card:nth-child(1) .img {
+    left: 108px;
+  }
+  
+  #steps .row.main .column.left .column.card:nth-child(2) .img {
+    right: 116px;
+  }
+  
+  #steps .row.main .column.right .column.card:nth-child(1) .img {
+    left: 108px;
+  }
+}
